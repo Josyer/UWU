@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_formulario.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tittle>Formulario</tittle>
+</head>
+<body>
+    <div class="links">
+        <center>
+            <ul>
+                <li><a href="file:///C:/Users/CBTis051/Desktop/Josyer%20HTML/index.html">Index</a></li>
+                <li><a href="file:///C:/Users/CBTis051/Desktop/Josyer%20HTML/biografia.html">Biografia</a></li>
+                <li><a href="file:///C:/Users/CBTis051/Desktop/Josyer%20HTML/music.html">Playlist</a></li>
+                <li><a href="file:///C:/Users/CBTis051/Desktop/Josyer%20HTML/tabla.html">Tabla</a></li>
+                <li><a href="file:///C:/Users/CBTis051/Desktop/Josyer%20HTML/fotos.html">Fotos</a></li>
+                <li><a href="file:///C:/Users/CBTis051/Desktop/Josyer%20HTML/Parientes.html">Parientes</a></li>
+                <li><a href="file:///C:/Users/CBTis051/Desktop/Josyer%20HTML/formulario.html">Formulario</a></li>
+            </ul>
+        </center>
+    </div>
+    <div class="formulario">
+        <form action="mailto:21325050510245@cbtis051.edu.mx" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Correo electronico</legend> <br>
+        <input type="email" placeholder="Correo electronico" name="email" class="correo" requerid value>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contraseña</legend> <br>
+        <input type="password" placeholder="Contraseña" name="password" class="contraseña" required value>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Usuario</legend> <br>
+        <input type="text" placeholder="Nombre de Usuario" name="username" class="usuario" required value>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Género</legend> <br>
+        <input type="radio" id="hombre" name="Genero_hombre" value="Hombre">
+        <label for="hombre">Hombre</label>
+        <br>
+        <input type="radio" id="mujer" name="Genero_mujer" value="Mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <input type="radio" id="nobinario" name="Genero_nobinario" value="Nobinario">
+        <label for="nobinario">No binario</label>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Que comida te gusta?</legend> <br>
+        <input type="checkbox" id="tacos" name="Comida_tacos" value="Tacos">
+        <label for="tacos">Tacos</label>
+        <br>
+        <input type="checkbox" id="hamburguesa" name="Comida_hamburguesa" value="Hamburguesa">
+        <label for="hamburguesa">Hamburguesa</label>
+        <br>
+        <input type="checkbox" id="pozole" name="Comida_pozole" value="Pozole">
+        <label for="pozole">Pozole</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Color de cabello</legend> <br>
+        <input type="color" id="color" name="Color_cabello" value="Color">
+        </fieldset> <br>
+        <fieldset>
+            <legend>Fecha de nacimiento</legend> <br>
+        <input type="datetime-local" id="fecha" name="Fecha_nacimiento" value="Fecha">
+        </fieldset> <br>
+        <fieldset>
+            <legend>Comentarios</legend> <br>
+        <textarea name="Comentarios" id="comentarios" cols="28.9" rows="10"></textarea>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Estado</legend> <br>
+            <select name="Estados" id="estados">
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="Baja California">Baja California</option>
+                <option value="Baja California Sur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chiahuahua">Chihuahua</option>
+                <option value="Durango">Durango</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Mexico">México</option>
+                <option value="Michoacan">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="Nuevo">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="Quintana Roo">Quintana Roo</option>
+                <option value="San Luis Potosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+            </select>
+        </fieldset> <br>
+        <fieldset>
+            <legend><label for="foto_perfil">Foto de perfil</label></legend> <br>
+            <input type="file" id="foto_perfil" name="Foto_de_perfil" value="Foto_perfil">
+        </fieldset>
+        <br>
+        <fieldset>
+            <input type="submit" id="enviar" name="Boton_enviar" value="Enviar">
+            <input type="reset" id="reset" name="Boton_reset" value="Reset"> <br>
+            <input type="image" id="imagen" name="Boton_imagen" value="Imagen" src="img/fotos_formulario/boton.jpg">
+        </fieldset>
+        </form>
+    </div> 
+</body>
+</html>

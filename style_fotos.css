@@ -1,0 +1,58 @@
+html {
+    background-color: rgb(36,36,36);
+    
+}
+
+.links, a {
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+tittle {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+img:hover {
+    border-color: red;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(20, 20, 20);
+    justify-content: center;
+    width: 755px;
+    border-radius: 30px;
+    display: flex;
+    padding-left: 2.5px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(50, 50, 50)
+}

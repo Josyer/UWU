@@ -1,0 +1,164 @@
+html {
+    background-color: rgb(36, 36, 36);
+}
+
+body {
+    align-items: center;
+    padding: 50px;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+
+.bodyindex {
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+
+tittle {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#HOLA {
+    font-size: 30px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+img:hover {
+    border-color: red;
+}
+
+.links, a {
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fototabla {
+    height: 100px;
+    width: 100px;
+    border: 0;
+    border-radius: 0;
+}
+
+.tabla, th, td {
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.tabla {
+    background-color: rgb(20, 20, 20);
+}
+
+th, td {
+    background-color: rgb(25, 25, 25);
+}
+
+#nada {
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(20, 20, 20);
+    justify-content: center;
+    width: 755px;
+    border-radius: 30px;
+    display: flex;
+    padding-left: 2.5px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(50, 50, 50)
+}
+
+.fotomia {
+    border: 0;
+    border-radius: 0;
+    height: 200;
+    width: 200;
+}
+
+.img_music {
+    border: 0;
+    width: 75px;
+    height: 75px;
+    float: right;
+}
+
+.noborde {
+    border: 0 solid rgb(30, 30, 30);
+}
+
+td {
+    text-align: center;
+}
+
+.parientes_cercanos {
+    background-color: red;
+    text-align: center;
+}
+
+.parientes_no_tan_cercanos {
+    background-color: darkred;
+}
+
+.parientes_no_cercanos {
+    background-color: crimson;
+}
+
+button {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+button:hover {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.fila {
+    background-color: rgb(25, 25, 25);
+    border: 2px solid rgb(30, 30, 30);
+}
+
+.img_music {
+    border: 0;
+    border-radius: 0;
+}
+
+.tabla_musica {
+    background-color: rgb(25, 25, 25);
+}
